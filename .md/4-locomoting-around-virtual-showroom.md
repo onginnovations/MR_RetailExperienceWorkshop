@@ -28,7 +28,7 @@ Locomotion is a movement that transports the users to their desired location. To
 
     ![A screenshot adding MRTK XR Rig to Locomotion System](img/select-locomotion-system.png)
 
-5. Select the **floor** GameObject, and in the **Inspector Window** add the following components:
+5. Select the **floor** GameObject, and in the **Inspector Window**, add the following components:
 
     - Add a **Box Collider** to detect the floor for teleportation.
     - Add a **Teleportation Area** script
@@ -43,7 +43,7 @@ When testing the app later teleport by pointing the ray from your hands or contr
 
 **Slate**: The Slate prefab offers a thin window for displaying 2D content such as text and images. It also includes a grabbable title bar and the ability to close the window.
 
-This section walks you through implementation of both the hand menu and the slate.
+This section walks you through the implementation of both the hand menu and the slate.
 
 1. From your project window, navigate to **Assets** > **MR_RetailShowroom** > **Prefab** and add the **HandMenuCanvas** prefab to the hierarchy window. From the same folder, add the **FeatureSlateCanvas** prefab to the hierarchy window.
 
@@ -61,7 +61,7 @@ This section walks you through implementation of both the hand menu and the slat
   
     *Locomotion*
   
-    *The locomotion system allows users to move and rotate in their environment using controller or hand inputs.*
+    *The locomotion system allows users to move and rotate in their environment using controllers or hand inputs.*
 
     *Hand Menu*
 
@@ -73,7 +73,7 @@ This section walks you through implementation of both the hand menu and the slat
 
     *UX Buttons*
 
-    *UX Buttons feature publicly exposed On Click function which drives the user in a specific direction allowing interactions to be performed without an actual scripting involved.*
+    *UX Buttons feature publicly exposed On Click function which drives the user in a specific direction allowing interactions to be performed without actual scripting involved.*
 
     *Bounds Control*
 
@@ -134,7 +134,7 @@ This section walks you through implementation of both the hand menu and the slat
 
 ## Lighting
 
-Before we build and deploy our project, it important to ensure that our lighting is baked, so that the lights will all appear as they should once we are running our project in the headsets.
+Before we build and deploy our project, it is important to ensure that our lighting is baked, so that the lights will all appear as they should once we are running our project in the headsets.
 
 1. Navigate to **File** > **Save** to save your scene. 
 
