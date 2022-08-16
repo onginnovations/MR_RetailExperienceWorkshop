@@ -7,7 +7,7 @@ In this workshop, you will learn how to create a multi-platform virtual showroom
 
 ## Learning Objectives
 
-- Learn how to import and configure MRTK3 for mixed reality development within Unity. For a basic tutorial for getting started with Unity, please see the [Roll-a-ball tutorial](https://learn.unity.com/project/roll-a-ball).
+- Learn how to import and configure MRTK3 for mixed reality development within Unity. Please see the [Roll-a-ball tutorial](https://learn.unity.com/project/roll-a-ball), for a basic tutorial for getting started with Unity
 
 - Understand the core features of MRTK3.
 
@@ -23,11 +23,11 @@ In this workshop, you will learn how to create a multi-platform virtual showroom
 
 - Unity Hub with Unity 2020.3.x installed.  
 
-- Basic familiarity with Unity: interface, scene creation, package import, the addition of Game Objects to a scene. 
+- Basic familiarity with Unity (Interface, scene creation, importing packages, Adding Game Objects to a scene).
 
 - Basic familiarity with the HoloLens 2 and/or Meta Quest. 
 
-- Please see [this](https://docs.microsoft.com/en-us/windows/mixed-reality/develop/install-the-tools), for a comprehensive list of prerequisites and installation resources.
+- Please see [this link](https://docs.microsoft.com/en-us/windows/mixed-reality/develop/install-the-tools), for a comprehensive list of prerequisites and installation resources.
 
 # Table of Contents 
 1.) [**Introduction**](1-introduction.md)

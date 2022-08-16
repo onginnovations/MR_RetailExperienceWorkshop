@@ -35,7 +35,7 @@ To import the Mixed Reality Toolkit into your project we'll use the Mixed Realit
 
 1. Download the latest version of the Mixed Reality Feature Tool from the [**Microsoft Download Center**](https://aka.ms/MRFeatureTool).
 
-2. Unzip the folder and double click **MixedRealityFeatureTool.exe** to launch the Mixed Reality Feature Tool.
+2. Unzip the folder and double-click **MixedRealityFeatureTool.exe** to launch the Mixed Reality Feature Tool.
 
     ![A screenshot of launching the Mixed Reality Feature Tool.](img/open-mixed-reality-feature-tool.png)
 
@@ -43,7 +43,7 @@ To import the Mixed Reality Toolkit into your project we'll use the Mixed Realit
 
     ![A screenshot of selecting start.](img/mixed-reality-feature-tool.png)
 
-4. To access the **MRTK3 preview packages**, click on the **Settings Icon** at the bottom-left of the window. Switch to the **Feature** tab and ensure that **Show preview releases** is checked.
+4. To access the **MRTK3 preview packages**, click on the **Settings Icon** at the bottom-left of the window. Switch to the **Feature** tab and ensure that the **Show preview releases** button is checked.
 
     ![A screenshot of accessing MRTK3 preview packages.](img/enable-preview-packages.png)
 
@@ -76,14 +76,14 @@ To import the Mixed Reality Toolkit into your project we'll use the Mixed Realit
     >**Note:**
     The "MRTK Core Definitions package" is the primary package that must be imported and configured to use MRTK with your project. This package includes the core components required to create a mixed reality application.
 
-11. Click the "+" button to the left of **Platform Support** and then select the latest version of **Mixed Reality OpenXR Plugin**. After you've made your selection(s), click **Get Features**.
+11. Click the "+" button to the left of **Platform Support** and then select the latest version of the **Mixed Reality OpenXR Plugin**. After you've made your selection(s), click **Get Features**.
 
     ![A screenshot of selecting the latest version of Mixed Reality OpenXR plugin.](img/NewMicrosoftFeatureTool-Step11.png)
 
 
 12. Select **Validate** to validate the packages you selected. You should see a dialog that says **No validation issues** were detected. When you do, click **OK**.
 
-13. On the **Import Features** page, the left-side column, the **Features** displays the packages you just selected. The right-side column shows the **required dependencies** displays any dependencies. You can click the **Details** link for any of these items to learn more about them.
+13. On the **Import Features** page, in the left-side column, the **Features** displays the packages you just selected. The right-side column shows the **required dependencies**. You can click the **Details** link for any of these items to learn more about them.
 
 14. When you're ready to move on, select **Import**. On the **Review and Approve** page, you can review information about the packages.
 
@@ -118,7 +118,7 @@ To import the Mixed Reality Toolkit into your project we'll use the Mixed Realit
 
         ![A screenshot of ensuring Universal Windows Platform Build Support is checked.](img/uwp.png)
     >**Note:**
-    To reload the packages and avoid errors, close and re - open the project.
+    To reload the packages and avoid errors, close and re-open the project.
 
 5. Navigate to **Edit** > **Project settings**. Ensure that you're on the **XR Plug-in Management** section with the **Universal Windows Platform** settings (Windows logo tab) displayed.
 
@@ -154,7 +154,7 @@ To import the Mixed Reality Toolkit into your project we'll use the Mixed Realit
 
 ## Configure MRTK3 Profile
 
-1. In the **Project settings** window, click on **MRTK3** option.
+1. In the **Project settings** window, click on the **MRTK3** option.
 
     ![A screenshot of selecting MRTK3 option.](img/mrtk-profile.png)
 
@@ -169,7 +169,7 @@ To import the Mixed Reality Toolkit into your project we'll use the Mixed Realit
     >**Note:**
     Once the MRTK settings are completed, the errors in the console can be cleared.
 
-4. Click on the **Graphics** tab. In this window, next to **Lightmap Modes**, select the the dropdown menu. Switch the value to **Custom** instead of **Automatic**. After this step, a list of modes should pop up. Double check that they are all marked as true, like the image below.  
+4. Click on the **Graphics** tab. In this window, next to **Lightmap Modes**, select the dropdown menu. Switch the value to **Custom** instead of **Automatic**. After this step, a list of modes should pop up. Double check that they are all marked as true, like the image below.  
     - Under the **Always Included Shaders** Section, make sure that the **Size** value is set to 6. This way we cut down on some shader elements to increase our performance.
 
     ![A screenshot of assigning MRTK profile.](img/set-lightmap-modes-to-custom.png)
@@ -186,7 +186,7 @@ To import the Mixed Reality Toolkit into your project we'll use the Mixed Realit
 
 1. In the menu bar, select **File** > **New Scene**.
 
-2. In the New Scene window select **Basic (Built-in)** and then click **Create**. Save the new scene with a name of your choice.
+2. Select the **Basic (Built-in)** and then click **Create**. Save the new scene with a name of your choice.
 
 3. Delete the **main camera** from the scene. Leave the **Directional Light** in the scene, it will provide necessary lighting for several of our interactable objects.
 
@@ -210,16 +210,16 @@ To import the Mixed Reality Toolkit into your project we'll use the Mixed Realit
 
 To get started, first download the following **Unity Custom Package**: [MR_RetailShowroom](https://github.com/onginnovations/MR_RetailExperienceWorkshop/releases/download/v0.3/MS-Retail-Showroom-Optimized-Package-v3.0.unitypackage)
 
-1. In the Unity menu, select **Assets** > **Import Package** > **Custom Package....**
+1. In the Unity menu, select **Assets** > **Import Package** > **Custom Package...**
 
-2. In **Import package**, select the custom unity package that you downloaded, and then select **Open**.
+2. In the **Import Package** window, select the custom unity package that you downloaded, and then select **Open**.
 
 3. In the **Import Unity Package** windows, select the **All** button to ensure that all of the assets will be imported. Then select **Import**.
 
     >**Note:**
-    You may clear or ignore on any warnings that may appear during the import.
+    You may clear or ignore any warnings that may appear during the import.
 
-4. In the Assets folder, click on the **MR_RetailShowroom** folder, then open the **Prefab** folder and drag and drop the **Retail Dress Showroom** model to **hierarchy** window and configure the transform component of this prefab as follows:
+4. In the Assets folder, click on the **MR_RetailShowroom** folder, then open the **Prefab** folder and drag and drop the **Retail Dress Showroom** model into the **hierarchy** window and configure the transform component of this prefab as follows:
 
     - **Position**: X = 4.31, Y = -1.3, Z = 2.84
     - **Rotation**: X = 0, Y = 0, Z = 0
