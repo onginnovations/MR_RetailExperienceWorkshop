@@ -7,13 +7,13 @@ title: Configuring the virtual showroom
 
 1. The instructions below demonstrate how to add the ability to manipulate certain objects in your scene with your hands (or controllers on VR devices.) This will allow you to move, rotate, and scale these objects, depending on the types of manipulations you set on those objects. Many of the objects will already be set up for you, but the steps below will walk you through setting up a few of your own. 
 
-    - In the hierarchy window, navigate to **Retail Dress Showroom** > **Dress_FBX**, select the GameObject called **Hoodie_Optimized (3)**. Now in the inspector window click the **Add Component** button, then search for and select the **ObjectManipulator** script.
+    - In the hierarchy window, navigate to **Retail Dress Showroom** > **Dress_FBX** and select the GameObject called **Hoodie_Optimized (3)**. Now in the inspector window click the **Add Component** button, then search for and select the **ObjectManipulator** script.
 
     - The **Object Manipulator** script makes an object movable, scalable, and rotatable using one or two hands. When you add the Object Manipulator script, the **Constraint Manager** script is automatically added as well because the Object Manipulator script depends on it.
 
         ![A screenshot of adding object manipulator.](img/add-object-manupilator.png)
 
-    - Expand the **Object Manipulator** script. Under **ObjectManipulator Settings**, next to where it says **Allowed Manipulations**, click on the dropdown menu and make sure that **Scale** is **unchecked**. Do this by clicking on **Scale** and then check that it is disabled by opening the menu again. The checkmark should no longer be beside "Scale".
+    - Expand the **Object Manipulator** script. Under **ObjectManipulator Settings**, next to where it says **Allowed Manipulations**, click on the dropdown menu and make sure that **Scale** is **unchecked**. Do this by clicking on **Scale** and then checking that it is disabled by opening the menu again. The checkmark should no longer be beside "Scale".
 
         ![A screenshot of disabling Scale](img/disable-scale-on-hanging-items.png)
 
@@ -38,7 +38,7 @@ title: Configuring the virtual showroom
 
     ![Screenshot of configuring the Min Max Scale Constraint component](img/configure-min-max-scale-constraint.png)
 
-    >**Note:** Objects that will be scalable should all have a Min Max Sale Constraint component that is configured for Two handed scaling. This way the user doesn't accidentally scale an object while  simply trying to move it. 
+    >**Note:** Objects that will be scalable should all have a Min Max Sale Constraint component that is configured for Two-handed scaling. This way the user doesn't accidentally scale an object while  simply trying to move it. 
 
 ## Include UX elements
 
@@ -58,7 +58,7 @@ Here we plan to integrate the product details into a **UX Slate** and display it
 
 3. We would like to have the UI tag appear when the user is interacting with the product and hidden when the user is not interacting with the product. To automatically activate and deactivate the tags, follow the instructions below.  
 
-    - In the **Inspector window** of the **Hoodie_Optimzed (3)** GameObject, expand the **Object Manipulator** script to configure the **Manipulation Started** event by clicking on the + icon to add new event.
+    - In the **Inspector window** of the **Hoodie_Optimzed (3)** GameObject, expand the **Object Manipulator** script to configure the **Manipulation Started** event by clicking on the + icon to add a new event.
 
     - Drag and drop the child **Cloth UI Tag** to the empty field as shown in the figure below.
 
@@ -70,7 +70,7 @@ Here we plan to integrate the product details into a **UX Slate** and display it
 
         ![A screenshot of configuring the manipulation ended](img/manupilation-ended.png)
 
-     -  Select the **Cloth tag** in hierarchy. In the **Inspector** window, ensure the Cloth tag is **unchecked** as shown in the image below. This makes the tag inactive by default, so that it is not seen before a user's interaction.
+     -  Select the **Cloth tag** in the hierarchy. In the **Inspector** window, ensure the Cloth tag is **unchecked** as shown in the image below. This makes the tag inactive by default so that it is not seen before a user's interaction.
 
         ![A screenshot of unchecking the cloth tag](img/uncheck-cloth-tag.png)
 
@@ -106,7 +106,8 @@ Wouldn't it be convenient if the UI Tags followed you around, rather than being 
     - Change **Max Distance** to **3**.
     - Change **Default Distance** to **2**.
     - Check **Ignore Distance Clamp**
-    >**Note:** All other values should stay the same. Feel free to double check against the image below. 
+
+    >**Note:** All other values should stay the same. Feel free to double-check against the image below. 
 
     ![A screenshot of adding follow script](img/add-follow.png)
 
